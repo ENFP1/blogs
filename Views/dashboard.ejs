@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1><%= email %></h1> -->
+    <body>
+        <!--______________ LEFT MAIN ______________ -->
+        <div class="left-main">
+    
+            <div class="up">
+                <div class="image-wrapper">
+                    <ion-icon name="logo-web-component"></ion-icon>
+                </div>
+            </div>
+            <div class="left-bar">
+                <ul>
+                    <li><ion-icon name="chatbox-outline"></ion-icon></li>
+                    <li><ion-icon name="file-tray-stacked-outline"></ion-icon></li>
+                    <li><ion-icon name="chatbox-ellipses-outline"></ion-icon></li>
+                    <li><ion-icon name="exit-outline"></ion-icon></li>
+                </ul>
+            </div>
+    
+        </div>
+        
+        <!--______________ MAIN ______________ -->
+    
+        <div class="main">
+    
+            <nav>
+                <div class="left-container">
+                    <div class="dashboard-box">
+                        <h2>Dashboard</h2>
+                    </div>
+                    <div class="support-messaging-box">
+                        <h2>Support Messaging</h2>
+                    </div>
+                </div>
+    
+                <div class="search">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="search" name="" id="" placeholder="Search on">
+                </div>
+    
+                <div class="print-export">
+                    <div class="print-box">
+                        <h1>All Blogs</h1>
+                    </div>
+                    <div class="export-box">
+                        <h1>My Blogs</h1>
+                    </div>
+                </div>
+            </nav>
+    
+            <div class="title">
+               <br><br><br><br><h1>Create Your First Blog</h1><br><br><br>
+            </div>
+            <div class="subtext">
+                <!-- <div class="right-bar-time-search">
+                    <div class="time">
+                        <ion-icon name="time-outline"></ion-icon>
+                        <h1>ANY TIME</h1>
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </div>
+    
+                    <div class="subtext-search">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <h1>SEARCH</h1>
+                    </div>
+                </div> -->
+            </div>
+            <div>
+                <form action="/createblog" method="post" class="blog-form" enctype="multipart/form-data">
+                    <input type="text" name="title" placeholder="Blog Title" class="blog-input"><br><br>
+                    <input type="text" name="description" placeholder="Blog Description" class="blog-input"><br><br>
+                    <input type="text" name="author" placeholder="Blog Author" class="blog-input"><br><br>
+                    <input type="file" name="image" class="blog-input"><br><br>
+                    <button type="submit" class="blog-button">Add Blog</button>
+                </form>                
+            </div>
+        </div>
+    
+        <!-- ______________ RIGHT MAIN ______________
+        <div class="right-main">
+    
+            <div class="user-container">
+                <ion-icon name="person-outline"></ion-icon>
+            </div>
+            
+             <div class="ticket">
+                <ion-icon name="ticket-outline"></ion-icon>
+                <h1>
+                    Create Ticket
+                </h1>
+            </div> -->
+    
+            <!-- <div class="notifications">
+                <div class="notification-box">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                </div>
+                <div class="message-bx">
+                    <div class="circle-ok"></div>
+                    <ion-icon name="chatbox-outline"></ion-icon>
+                </div>
+            </div> 
+        </div> -->
+    
+    
+        <script src="/3_javascript/mail.js"></script> -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
+

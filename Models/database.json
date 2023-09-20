@@ -1,0 +1,53 @@
+{
+  "blogs": [
+    {
+      "title": "dfsaljlk",
+      "description": "jklj",
+      "author": "lkj",
+      "image": "3-main-essager-cable-usb-type-c-100w-pd-pour-recharge-rapide-et-affichage-compatible-avec-xiaomi-poco-f3-realme-macbook-et-ipad.png1695122989200.png",
+      "id": 1
+    },
+    {
+      "title": "dfsaljlk",
+      "description": "jklj",
+      "author": "lkj",
+      "image": "3-main-essager-cable-usb-type-c-100w-pd-pour-recharge-rapide-et-affichage-compatible-avec-xiaomi-poco-f3-realme-macbook-et-ipad.png1695122993764.png",
+      "id": 2
+    },
+    {
+      "title": "mern",
+      "description": "express",
+      "author": "imane",
+      "image": "2-main-essager-cable-usb-type-c-100w-pd-pour-recharge-rapide-et-affichage-compatible-avec-xiaomi-poco-f3-realme-macbook-et-ipad.png1695123016749.png",
+      "id": 3
+    },
+    {
+      "title": "im",
+      "description": "a",
+      "author": "s",
+      "image": "2-main-essager-cable-usb-type-c-100w-pd-pour-recharge-rapide-et-affichage-compatible-avec-xiaomi-poco-f3-realme-macbook-et-ipad.png1695123348311.png",
+      "id": 4
+    },
+    {
+      "title": "mern",
+      "description": "express",
+      "author": "imane",
+      "image": "2-main-essager-cable-usb-type-c-100w-pd-pour-recharge-rapide-et-affichage-compatible-avec-xiaomi-poco-f3-realme-macbook-et-ipad.png1695123954108.png",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "Name": "dsfada",
+      "Email": "ddjk@gmai.coma",
+      "Password": "ddjk@gmai.coma",
+      "id": 1
+    },
+    {
+      "Name": "io",
+      "Email": "io@io",
+      "Password": "io",
+      "id": 2
+    }
+  ]
+}

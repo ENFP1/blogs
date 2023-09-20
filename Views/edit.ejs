@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/update/<%=blog.id%>" method="post" enctype="multipart/form-data">
+        <input type="text" name="title" value="<%= blog.title %>">
+        <input type="text" name="description" value="<%= blog.description %>">
+        <input type="text" name="author" disabled value="<%= blog.author %>">
+        <input type="file" name="image"><br><br>
+        <button type="submit">edit blog</button>
+    </form>
+    <img width="90" height="90" src="/uploads/<%= blog.image %>" alt="">
+</body>
+</html>

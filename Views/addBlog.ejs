@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add Blog</h1>
+    <form action="/createblog" method="post" enctype="multipart/form-data">
+    <!-- <form action="/createblog" method="post"> -->
+        <input type="text" name="title" placeholder="blog title"><br><br>
+        <input type="text" name="description" placeholder="blog description"><br><br>
+        <input type="text" name="author" placeholder="blog author"><br><br>
+        <input type="file" name="image"><br><br>
+        <button type="submit">Add Blog</button>
+    </form>
+</body>
+</html>

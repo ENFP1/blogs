@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/input.js" defer></script>
+</head>
+<body>
+    <h1>All Blogs</h1>
+    <% blogs.forEach((b) => { %>
+        <div id="<%= b.id %>">
+            <h3>Blog title: <%= b.title %></h3>
+            <h3>Blog description: <%= b.description %></h3>
+            <h3>Blog author: <%= b.author %></h3>
+            <img width="90" height="90" src="/<%= b.image%>" alt="">
+            <div class="button">
+                <a href="/edit/<%= b.id%>" id="edit" data-id="<%=b.id%>">edit</a>
+                <a href="/delete/<%= b.id%>" id="delete" data-id="<%=b.id%>">delete</a>
+            </div>
+        </div>
+        <br><br><br>
+        <hr>
+    <% }); %>    
+</body>
+</html>
